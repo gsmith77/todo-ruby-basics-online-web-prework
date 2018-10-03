@@ -2,8 +2,9 @@ def division(num1, num2)
  return 36/6
 end
 
-def assign_variable(value="Bob")
-  return #{value}
+def assign_variable(value)
+  value="Bob"
+  return value
 end
 
 def argue
